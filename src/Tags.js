@@ -7,14 +7,15 @@ function Tags(){
     return (
         <div className="tags">
             { tags.map((tag, index) => (
-                <div className="tag-item" key={index}>
+                <div className="tag" key={index}>
                     <span className="tag">#{tag}</span>
-                    <span className="close">&times;</span>
                 </div>
             )) }
-            <input type="text" className="tags-input" placeholder="Type somthing" />
         </div>
     )
 }
 
 export default Tags
+
+//      <input type="text" className="tags-input" placeholder="Type somthing" />
+//                 <span className="close">&times;</span>

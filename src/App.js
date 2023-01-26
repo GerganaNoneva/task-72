@@ -15,12 +15,13 @@ function App() {
       </section>
       <div class="container is-fullhd">
         <div class="notification">
-          Edit the <code>./src</code> folder to add components.
+        <TagsInput/>
         </div>
       </div>
-      <TagsInput/>
+
     </div>
   );
 }
 
 export default App;
+//Edit the <code>./src</code> folder to add components.
