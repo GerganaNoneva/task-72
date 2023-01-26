@@ -16,6 +16,3 @@ function Tags(){
 }
 
 export default Tags
-
-//      <input type="text" className="tags-input" placeholder="Type somthing" />
-//                 <span className="close">&times;</span>
