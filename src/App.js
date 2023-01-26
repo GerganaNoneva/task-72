@@ -24,4 +24,3 @@ function App() {
 }
 
 export default App;
-//Edit the <code>./src</code> folder to add components.
